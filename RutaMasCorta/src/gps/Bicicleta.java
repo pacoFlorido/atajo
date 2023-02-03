@@ -22,8 +22,16 @@ public class Bicicleta {
         for(int i=0; i<camino1.length; i++)
         {
             sum1 += camino1[i];
-            sum2 += camino2[i];
-            sum3 += camino3[i];
+        }
+        
+        for(int j=0; j<camino2.length; j++)
+        {
+            sum2 += camino2[j];
+        }
+        
+        for(int k=0; k<camino3.length; k++)
+        {
+            sum3 += camino3[k];
         }
         
         if(sum1 < sum2 && sum1 < sum3)
